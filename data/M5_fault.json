@@ -1,0 +1,78 @@
+{
+        "timestamp": 1712486181,
+        "group_name": "n_1_11_TAG1_G1",
+        "values": {
+                "n_1_11_M5": {
+                        "M5_1_11_080D": {
+                                "raw_data": 2912,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_080C": {
+                                "raw_data": 714,
+                                "status": 1,
+                                "timestamp": 1702863401
+                        },
+                        "M5_1_11_080B": {
+                                "raw_data": 2404,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_080A": {
+                                "raw_data": 4,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_0809": {
+                                "raw_data": 210,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_0808": {
+                                "raw_data": 0,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_0807": {
+                                "raw_data": 210,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_0806": {
+                                "raw_data": 0,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_0805": {
+                                "raw_data": 0,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_0804": {
+                                "raw_data": 0,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_0803": {
+                                "raw_data": 0,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_0802": {
+                                "raw_data": 0,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_0801": {
+                                "raw_data": 3000,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        },
+                        "M5_1_11_0800": {
+                                "raw_data": 5128,
+                                "timestamp": 1702863401,
+                                "status": 1
+                        }
+                }
+        }
+}

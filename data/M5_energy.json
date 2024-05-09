@@ -1,0 +1,313 @@
+{
+	"timestamp": 1712639312,
+	"group_name": "n_1_11_TAG2",
+	"values": {
+		"n_1_11_M5": {
+			"M5_1_11_02B7": {
+				"raw_data": 100.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02B6": {
+				"raw_data": 5.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02B5": {
+				"raw_data": 0.5,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02B4": {
+				"raw_data": 3.6,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02B3": {
+				"raw_data": 5.3,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02B2": {
+				"raw_data": 14.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02B1": {
+				"raw_data": 35.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02B0": {
+				"raw_data": 66.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02AF": {
+				"raw_data": 27.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02AE": {
+				"raw_data": 11.5,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02AC": {
+				"raw_data": 23.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02AA": {
+				"raw_data": 54.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02A8": {
+				"raw_data": 33.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02A6": {
+				"raw_data": 10.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02A4": {
+				"raw_data": 24.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02A2": {
+				"raw_data": 41.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_02A0": {
+				"raw_data": 54.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_029E": {
+				"raw_data": 55.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_029C": {
+				"raw_data": 21.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_029A": {
+				"raw_data": 4.6,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0298": {
+				"raw_data": 3.7,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0296": {
+				"raw_data": 5.6,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0295": {
+				"raw_data": 13.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0294": {
+				"raw_data": 10.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0293": {
+				"raw_data": 55.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0292": {
+				"raw_data": 22.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0291": {
+				"raw_data": 53.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0290": {
+				"raw_data": 86.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_028F": {
+				"raw_data": 90.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_028E": {
+				"raw_data": 51.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_028D": {
+				"raw_data": 66.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_028C": {
+				"raw_data": 42.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_028B": {
+				"raw_data": 65.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_028A": {
+				"raw_data": 91.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0289": {
+				"raw_data": 19.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0288": {
+				"raw_data": 77.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0287": {
+				"raw_data": 14.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0286": {
+				"raw_data": 31.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0285": {
+				"raw_data": 32.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0284": {
+				"raw_data": 33.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0283": {
+				"raw_data": 34.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0282": {
+				"raw_data": 8.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0281": {
+				"raw_data": 1,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0280": {
+				"raw_data": 50.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_027F": {
+				"raw_data": 50.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_027E": {
+				"raw_data": 50.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_027D": {
+				"raw_data": 237.8,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_027C": {
+				"raw_data": 205.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_027B": {
+				"raw_data": 407.3,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_027A": {
+				"raw_data": 405.6,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0279": {
+				"raw_data": 401.6,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0278": {
+				"raw_data": 235.2,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0277": {
+				"raw_data": 234.2,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0276": {
+				"raw_data": 231.9,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_026C": {
+				"raw_data": 0.2,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_026A": {
+				"raw_data": 0.1,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0268": {
+				"raw_data": 78.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0266": {
+				"raw_data": 77.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0264": {
+				"raw_data": 76.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0262": {
+				"raw_data": 100.0,
+				"timestamp": 1704944207,
+				"status": 1
+			},
+			"M5_1_11_0260": {
+				"raw_data": 101.0,
+				"timestamp": 1704944207,
+				"status": 1
+			}
+		}
+	}
+}

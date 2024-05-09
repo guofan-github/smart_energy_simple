@@ -1,0 +1,23 @@
+{
+	"timestamp": 1710316812,
+	"group_name": "n_1_100_TAG2",
+	"values": {
+		"n_1_100_FC": {
+			"FC_1_100_0002": {
+				"raw_data": 58,
+				"timestamp": 1710316798,
+				"status": 1
+			},
+			"FC_1_100_0001": {
+				"raw_data": 43,
+				"timestamp": 1710316798,
+				"status": 1
+			},
+			"FC_1_100_0000": {
+				"raw_data": 28,
+				"timestamp": 1710316798,
+				"status": 1
+			}
+		}
+	}
+}
