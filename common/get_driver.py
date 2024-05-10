@@ -1,15 +1,8 @@
-import os
-import re
 import shutil
-import time
-import zipfile
-from telnetlib import EC
-
 import requests
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.common import NoSuchElementException
-from selenium.webdriver.common.by import By
+
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -20,31 +13,42 @@ def update_driver(bw_type):
     if bw_type == "chrome":
         from selenium.webdriver.chrome.service import Service as ChromeService
         from webdriver_manager.chrome import ChromeDriverManager
+        from selenium.webdriver.chrome.options import Options
         # 1.使用ChromeDriverManager安装ChromeDriver，并返回驱动程序的路径
         driver_path = ChromeDriverManager().install()
+        # 设置 ChromeOptions
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")  # 设置无窗口模式
         # 打印驱动程序路径
         print(driver_path)
         # C:\Users\Ms-xiao\.wdm\drivers\chromedriver\win64\120.0.6099.109\chromedriver-win32/chromedriver.exe
         # 2.把下载的驱动文件，复制到指定位置
         shutil.copy(driver_path, new_path)
         # 3.验证一下安装好的驱动，是否可用
-        driver = webdriver.Chrome(service=ChromeService(new_path + 'chromedriver.exe'))
+        driver = webdriver.Chrome(service=ChromeService(new_path + 'chromedriver.exe'), options=chrome_options)
         # 打开百度网页
         driver.get(url)
 
     elif bw_type == "edge":
         from selenium.webdriver.edge.service import Service as EdgeService
         from webdriver_manager.microsoft import EdgeChromiumDriverManager
+        from selenium.webdriver.edge.options import Options
         driver_path = EdgeChromiumDriverManager().install()
+        # 设置 EdgeOptions
+        edge_options = Options()
+        edge_options.add_argument("--headless")  # 设置无窗口模式
         # 2.把下载的驱动文件，复制到指定位置
         shutil.copy(driver_path, new_path)
-        driver = webdriver.Edge(service=EdgeService(new_path + 'msedgedriver.exe'))
+        driver = webdriver.Edge(service=EdgeService(new_path + 'msedgedriver.exe'), options=edge_options)
         driver.get(url)
 
     elif bw_type == "firefox":
         from selenium.webdriver.firefox.service import Service as FirefoxService
         from webdriver_manager.firefox import GeckoDriverManager
+        from selenium.webdriver.firefox.options import Options
         driver_path = GeckoDriverManager().install()
+        firefox_options = Options()
+        firefox_options.add_argument("--headless")  # 设置无窗口模式
         shutil.copy(driver_path, new_path)
         driver = webdriver.Firefox(service=FirefoxService(new_path + 'geckodriver.exe'))
         driver.get(url)

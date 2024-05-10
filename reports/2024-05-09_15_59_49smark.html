@@ -222,7 +222,7 @@
                     <div class="info">
                         <div style="flex:5">
                             <button type="button" class="btn btn-primary btn-sm">开始时间</button>
-                            <span>2024-05-09 14:25:58</span>
+                            <span>2024-05-09 15:59:19</span>
                         </div>
                         <div style="flex:5">
                             <button type="button" class="btn btn-primary btn-sm">用例总数</button>
@@ -232,7 +232,7 @@
                     <div class="info">
                         <div style="flex:5">
                             <button type="button" class="btn btn-primary btn-sm">运行时长</button>
-                            <span>0.17 分钟</span>
+                            <span>0.49 分钟</span>
                         </div>
                         <div style="flex:5">
                             <button type="button" class="btn btn-primary btn-sm ">测试人员</button>
@@ -242,11 +242,11 @@
                     <div class="info">
                         <div style="flex:5">
                             <button type="button" class="btn btn-primary btn-sm">成功用例</button>
-                            <span>0</span>
+                            <span>1</span>
                         </div>
                         <div style="flex:5">
                             <button type="button" class="btn btn-primary btn-sm ">通过率</button>
-                            <span>0.00%</span>
+                            <span>50.00%</span>
                         </div>
                     </div>
                 </div>
@@ -270,6 +270,34 @@
                         </tr>
                         </thead>
                         <tbody>
+                        
+                        <tr>
+                            <th scope="row">2024-05-09 15:59:19</th>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>50.00%</td>
+                        </tr>
+                        
+                        <tr>
+                            <th scope="row">2024-05-09 15:55:15</th>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>50.00%</td>
+                        </tr>
+                        
+                        <tr>
+                            <th scope="row">2024-05-09 14:42:07</th>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>50.00%</td>
+                        </tr>
+                        
+                        <tr>
+                            <th scope="row">2024-05-09 14:37:11</th>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>50.00%</td>
+                        </tr>
                         
                         <tr>
                             <th scope="row">2024-05-09 14:25:58</th>
@@ -1205,9 +1233,11 @@
                     <td class="testcasestest_uipy">testcases\test_ui.py</td>
                     <td>TestUi.test_execute_cases</td>
                     <td>登录4,0</td>
-                    <td>9.352243</td>
+                    <td>12.596659</td>
                     
-                    <td class="text-danger">错误</td>
+                    
+                    <td class="text-success">通过</td>
+                    
                     
                     <td>
                         <button type="button" class="btn btn_info btn-primary btn-sm">查看详情</button>
@@ -1228,11 +1258,6 @@
                                            aria-selected="false" style="padding: 0 16px">调试输出</a>
                                     </li>
                                     
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" data-toggle="tab" role="tab" aria-controls="contact"
-                                           aria-selected="false" style="padding: 0 16px">异常信息</a>
-                                    </li>
-                                    
                                     
 
                                 </ul>
@@ -1243,156 +1268,86 @@
 INFO     WDM:logger.py:11 Get LATEST edgedriver version for Edge 124.0.2478
 INFO     WDM:logger.py:11 Get LATEST edgedriver version for Edge 124.0.2478
 INFO     WDM:logger.py:11 Driver [C:\Users\65682\.wdm\drivers\edgedriver\win64\124.0.2478.80\msedgedriver.exe] found in cache
-WARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:144 The msedgedriver version (112.0.1722.34) detected in PATH at E:\gf\pytest_smart_energy4.0_simple\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (124.0.2478.80); currently, msedgedriver 124.0.2478.80 is recommended for MicrosoftEdge 124.*, so it is advised to delete the driver in PATH and retry</pre>
+INFO     root:test_ui.py:16 **************************历史测试结果已清除**********************************
+INFO     root:test_ui.py:18 ******************************文件已备份*************************************
+INFO     root:test_ui.py:31 sheet标题：登录
+INFO     root:test_ui.py:33 用例标题：登录4,0
+INFO     root:test_ui.py:36 是
+INFO     root:test_ui.py:45 步骤描述：打开4.0
+INFO     root:test_ui.py:47 步骤1
+INFO     root:test_ui.py:49 打开4.0 - 关键字行为：open
+INFO     root:test_ui.py:51 打开4.0 - 定位方法：None
+INFO     root:test_ui.py:53 打开4.0 - 元素位置：None
+INFO     root:test_ui.py:55 打开4.0 - 输入内容：http://1.95.10.23/
+INFO     root:test_ui.py:57 打开4.0 - 断言值：None
+INFO     root:test_ui.py:64 正在执行：打开4.0 - open
+INFO     root:test_ui.py:66 字典：{'by': None, 'value': None, 'txt': 'http://1.95.10.23/'}
+INFO     root:test_ui.py:68 字典去掉空值：{'txt': 'http://1.95.10.23/'}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤打开4.0 - open执行完毕
+INFO     root:test_ui.py:45 步骤描述：输入用户名
+INFO     root:test_ui.py:47 步骤2
+INFO     root:test_ui.py:49 输入用户名 - 关键字行为：input
+INFO     root:test_ui.py:51 输入用户名 - 定位方法：CSS_SELECTOR
+INFO     root:test_ui.py:53 输入用户名 - 元素位置：input[placeholder="请输入手机号"]
+INFO     root:test_ui.py:55 输入用户名 - 输入内容：18309223069
+INFO     root:test_ui.py:57 输入用户名 - 断言值：None
+INFO     root:test_ui.py:64 正在执行：输入用户名 - input
+INFO     root:test_ui.py:66 字典：{'by': 'CSS_SELECTOR', 'value': 'input[placeholder="请输入手机号"]', 'txt': 18309223069}
+INFO     root:test_ui.py:68 字典去掉空值：{'by': 'CSS_SELECTOR', 'value': 'input[placeholder="请输入手机号"]', 'txt': 18309223069}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤输入用户名 - input执行完毕
+INFO     root:test_ui.py:45 步骤描述：输入密码
+INFO     root:test_ui.py:47 步骤3
+INFO     root:test_ui.py:49 输入密码 - 关键字行为：input
+INFO     root:test_ui.py:51 输入密码 - 定位方法：None
+INFO     root:test_ui.py:53 输入密码 - 元素位置：//*[@id="logins"]/div[1]/div/div/div/div[3]/form/div[2]/div/div/input
+INFO     root:test_ui.py:55 输入密码 - 输入内容：Nader@1234
+INFO     root:test_ui.py:57 输入密码 - 断言值：None
+INFO     root:test_ui.py:64 正在执行：输入密码 - input
+INFO     root:test_ui.py:66 字典：{'by': None, 'value': '//*[@id="logins"]/div[1]/div/div/div/div[3]/form/div[2]/div/div/input', 'txt': 'Nader@1234'}
+INFO     root:test_ui.py:68 字典去掉空值：{'value': '//*[@id="logins"]/div[1]/div/div/div/div[3]/form/div[2]/div/div/input', 'txt': 'Nader@1234'}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤输入密码 - input执行完毕
+INFO     root:test_ui.py:45 步骤描述：勾选协议
+INFO     root:test_ui.py:47 步骤4
+INFO     root:test_ui.py:49 勾选协议 - 关键字行为：click
+INFO     root:test_ui.py:51 勾选协议 - 定位方法：None
+INFO     root:test_ui.py:53 勾选协议 - 元素位置：//*[@id="logins"]/div[1]/div/div/div/div[3]/form/div[3]/div/label/span/span
+INFO     root:test_ui.py:55 勾选协议 - 输入内容：None
+INFO     root:test_ui.py:57 勾选协议 - 断言值：None
+INFO     root:test_ui.py:64 正在执行：勾选协议 - click
+INFO     root:test_ui.py:66 字典：{'by': None, 'value': '//*[@id="logins"]/div[1]/div/div/div/div[3]/form/div[3]/div/label/span/span', 'txt': None}
+INFO     root:test_ui.py:68 字典去掉空值：{'value': '//*[@id="logins"]/div[1]/div/div/div/div[3]/form/div[3]/div/label/span/span'}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤勾选协议 - click执行完毕
+INFO     root:test_ui.py:45 步骤描述：点击登录
+INFO     root:test_ui.py:47 步骤5
+INFO     root:test_ui.py:49 点击登录 - 关键字行为：click
+INFO     root:test_ui.py:51 点击登录 - 定位方法：None
+INFO     root:test_ui.py:53 点击登录 - 元素位置：//*[@id="logins"]/div[1]/div/div/div/div[3]/form/div[4]/div/button
+INFO     root:test_ui.py:55 点击登录 - 输入内容：None
+INFO     root:test_ui.py:57 点击登录 - 断言值：None
+INFO     root:test_ui.py:64 正在执行：点击登录 - click
+INFO     root:test_ui.py:66 字典：{'by': None, 'value': '//*[@id="logins"]/div[1]/div/div/div/div[3]/form/div[4]/div/button', 'txt': None}
+INFO     root:test_ui.py:68 字典去掉空值：{'value': '//*[@id="logins"]/div[1]/div/div/div/div[3]/form/div[4]/div/button'}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤点击登录 - click执行完毕
+INFO     root:test_ui.py:45 步骤描述：等待5s
+INFO     root:test_ui.py:47 步骤9
+INFO     root:test_ui.py:49 等待5s - 关键字行为：sleep
+INFO     root:test_ui.py:51 等待5s - 定位方法：None
+INFO     root:test_ui.py:53 等待5s - 元素位置：None
+INFO     root:test_ui.py:55 等待5s - 输入内容：5
+INFO     root:test_ui.py:57 等待5s - 断言值：None
+INFO     root:test_ui.py:64 正在执行：等待5s - sleep
+INFO     root:test_ui.py:66 字典：{'by': None, 'value': None, 'txt': 5}
+INFO     root:test_ui.py:68 字典去掉空值：{'txt': 5}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤等待5s - sleep执行完毕</pre>
                                     </div>
                                     <div class="tab-pane fade" role="tabpanel" aria-labelledby="contact-tab">
                                         <pre style="line-height: 18px"></pre>
-                                    </div>
-                                    
-                                    <div class="tab-pane fade " role="tabpanel" aria-labelledby="home-tab">
-                                        <pre style="line-height: 18px">self = <class 'test_ui.TestUi'>
-
-    def setup_class(self):
->       self.wd = Key()
-
-testcases\test_ui.py:14: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-common\pubic_ui.py:17: in __init__
-    self.driver = Common.get_driver('edge')
-common\get_driver.py:72: in get_driver
-    cls.driver = webdriver.Edge()
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\edge\webdriver.py:45: in __init__
-    super().__init__(
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\chromium\webdriver.py:61: in __init__
-    super().__init__(command_executor=executor, options=options)
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webdriver.py:209: in __init__
-    self.start_session(capabilities)
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webdriver.py:293: in start_session
-    response = self.execute(Command.NEW_SESSION, caps)["value"]
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webdriver.py:348: in execute
-    self.error_handler.check_response(response)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000022CAE1E5100>
-response = {'status': 500, 'value': '{"value":{"error":"session not created","message":"session not created: This version of Micr...1D8371+793873]\\n\\tBaseThreadInitThunk [0x00007FF84B0F7344+20]\\n\\tRtlUserThreadStart [0x00007FF84B4226B1+33]\\n"}}'}
-
-    def check_response(self, response: Dict[str, Any]) -> None:
-        """Checks that a JSON response from the WebDriver does not have an
-        error.
-    
-        :Args:
-         - response - The JSON response from the WebDriver server as a dictionary
-           object.
-    
-        :Raises: If the response contains an error message.
-        """
-        status = response.get("status", None)
-        if not status or status == ErrorCode.SUCCESS:
-            return
-        value = None
-        message = response.get("message", "")
-        screen: str = response.get("screen", "")
-        stacktrace = None
-        if isinstance(status, int):
-            value_json = response.get("value", None)
-            if value_json and isinstance(value_json, str):
-                import json
-    
-                try:
-                    value = json.loads(value_json)
-                    if len(value) == 1:
-                        value = value["value"]
-                    status = value.get("error", None)
-                    if not status:
-                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
-                        message = value.get("value") or value.get("message")
-                        if not isinstance(message, str):
-                            value = message
-                            message = message.get("message")
-                    else:
-                        message = value.get("message", None)
-                except ValueError:
-                    pass
-    
-        exception_class: Type[WebDriverException]
-        e = ErrorCode()
-        error_codes = [item for item in dir(e) if not item.startswith("__")]
-        for error_code in error_codes:
-            error_info = getattr(ErrorCode, error_code)
-            if isinstance(error_info, list) and status in error_info:
-                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
-                break
-        else:
-            exception_class = WebDriverException
-    
-        if not value:
-            value = response["value"]
-        if isinstance(value, str):
-            raise exception_class(value)
-        if message == "" and "message" in value:
-            message = value["message"]
-    
-        screen = None  # type: ignore[assignment]
-        if "screen" in value:
-            screen = value["screen"]
-    
-        stacktrace = None
-        st_value = value.get("stackTrace") or value.get("stacktrace")
-        if st_value:
-            if isinstance(st_value, str):
-                stacktrace = st_value.split("\n")
-            else:
-                stacktrace = []
-                try:
-                    for frame in st_value:
-                        line = frame.get("lineNumber", "")
-                        file = frame.get("fileName", "<anonymous>")
-                        if line:
-                            file = f"{file}:{line}"
-                        meth = frame.get("methodName", "<anonymous>")
-                        if "className" in frame:
-                            meth = f"{frame['className']}.{meth}"
-                        msg = "    at %s (%s)"
-                        msg = msg % (meth, file)
-                        stacktrace.append(msg)
-                except TypeError:
-                    pass
-        if exception_class == UnexpectedAlertPresentException:
-            alert_text = None
-            if "data" in value:
-                alert_text = value["data"].get("text")
-            elif "alert" in value:
-                alert_text = value["alert"].get("text")
-            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
->       raise exception_class(message, screen, stacktrace)
-E       selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 112
-E       Current browser version is 124.0.2478.80 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
-E       Stacktrace:
-E       Backtrace:
-E       	GetHandleVerifier [0x00007FF66224D8C2+60274]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621DE522+818882]
-E       	(No symbol) [0x00007FF661E6DFAE]
-E       	(No symbol) [0x00007FF661E9E378]
-E       	(No symbol) [0x00007FF661E98D24]
-E       	(No symbol) [0x00007FF661E9440A]
-E       	(No symbol) [0x00007FF661ED7341]
-E       	(No symbol) [0x00007FF661ECF343]
-E       	(No symbol) [0x00007FF661EA1796]
-E       	(No symbol) [0x00007FF661EA0975]
-E       	(No symbol) [0x00007FF661EA1F04]
-E       	Microsoft::Applications::Events::EventProperties::SetLevel [0x00007FF6620E2147+1592039]
-E       	Microsoft::Applications::Events::EventProperties::SetLevel [0x00007FF661F8AC4D+185837]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF66211F6B7+36951]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621177C5+4453]
-E       	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF66241FB93+1320211]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621E65DC+851836]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621E2644+835556]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621E279C+835900]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621D8371+793873]
-E       	BaseThreadInitThunk [0x00007FF84B0F7344+20]
-E       	RtlUserThreadStart [0x00007FF84B4226B1+33]
-
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\errorhandler.py:229: SessionNotCreatedException</pre>
                                     </div>
                                     
                                     
@@ -1409,9 +1364,9 @@ D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\errorh
                     <td class="testcasestest_uipy">testcases\test_ui.py</td>
                     <td>TestUi.test_execute_cases</td>
                     <td>新建项目</td>
-                    <td>0.000147</td>
+                    <td>6.303863</td>
                     
-                    <td class="text-danger">错误</td>
+                    <td class="text-warning">失败</td>
                     
                     <td>
                         <button type="button" class="btn btn_info btn-primary btn-sm">查看详情</button>
@@ -1443,156 +1398,122 @@ D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\errorh
                                 <div class="tab-content" style="height: 300px;overflow-y: auto;padding: 20px">
 
                                     <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="profile-tab">
-                                        <pre style="line-height: 18px"></pre>
+                                        <pre style="line-height: 18px">INFO     root:test_ui.py:31 sheet标题：登录
+INFO     root:test_ui.py:33 用例标题：新建项目
+INFO     root:test_ui.py:36 是
+INFO     root:test_ui.py:45 步骤描述：点击系统设置
+INFO     root:test_ui.py:47 步骤10
+INFO     root:test_ui.py:49 点击系统设置 - 关键字行为：click
+INFO     root:test_ui.py:51 点击系统设置 - 定位方法：None
+INFO     root:test_ui.py:53 点击系统设置 - 元素位置：/html/body/div[1]/div/div[1]/div[1]/div[3]/div/span[3]
+INFO     root:test_ui.py:55 点击系统设置 - 输入内容：None
+INFO     root:test_ui.py:57 点击系统设置 - 断言值：None
+INFO     root:test_ui.py:64 正在执行：点击系统设置 - click
+INFO     root:test_ui.py:66 字典：{'by': None, 'value': '/html/body/div[1]/div/div[1]/div[1]/div[3]/div/span[3]', 'txt': None}
+INFO     root:test_ui.py:68 字典去掉空值：{'value': '/html/body/div[1]/div/div[1]/div[1]/div[3]/div/span[3]'}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤点击系统设置 - click执行完毕
+INFO     root:test_ui.py:45 步骤描述：等待5s
+INFO     root:test_ui.py:47 步骤None
+INFO     root:test_ui.py:49 等待5s - 关键字行为：sleep
+INFO     root:test_ui.py:51 等待5s - 定位方法：None
+INFO     root:test_ui.py:53 等待5s - 元素位置：None
+INFO     root:test_ui.py:55 等待5s - 输入内容：5
+INFO     root:test_ui.py:57 等待5s - 断言值：None
+INFO     root:test_ui.py:64 正在执行：等待5s - sleep
+INFO     root:test_ui.py:66 字典：{'by': None, 'value': None, 'txt': 5}
+INFO     root:test_ui.py:68 字典去掉空值：{'txt': 5}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤等待5s - sleep执行完毕
+INFO     root:test_ui.py:45 步骤描述：点击项目管理
+INFO     root:test_ui.py:47 步骤11
+INFO     root:test_ui.py:49 点击项目管理 - 关键字行为：click
+INFO     root:test_ui.py:51 点击项目管理 - 定位方法：None
+INFO     root:test_ui.py:53 点击项目管理 - 元素位置：/html/body/div/div/div[1]/ul/li[2]/div/span
+INFO     root:test_ui.py:55 点击项目管理 - 输入内容：None
+INFO     root:test_ui.py:57 点击项目管理 - 断言值：None
+INFO     root:test_ui.py:64 正在执行：点击项目管理 - click
+INFO     root:test_ui.py:66 字典：{'by': None, 'value': '/html/body/div/div/div[1]/ul/li[2]/div/span', 'txt': None}
+INFO     root:test_ui.py:68 字典去掉空值：{'value': '/html/body/div/div/div[1]/ul/li[2]/div/span'}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤点击项目管理 - click执行完毕
+INFO     root:test_ui.py:45 步骤描述：新增项目-点击新增
+INFO     root:test_ui.py:47 步骤12
+INFO     root:test_ui.py:49 新增项目-点击新增 - 关键字行为：click
+INFO     root:test_ui.py:51 新增项目-点击新增 - 定位方法：None
+INFO     root:test_ui.py:53 新增项目-点击新增 - 元素位置：//*[@id="app"]/div/div[2]/div[3]/div/div[1]/button
+INFO     root:test_ui.py:55 新增项目-点击新增 - 输入内容：None
+INFO     root:test_ui.py:57 新增项目-点击新增 - 断言值：None
+INFO     root:test_ui.py:64 正在执行：新增项目-点击新增 - click
+INFO     root:test_ui.py:66 字典：{'by': None, 'value': '//*[@id="app"]/div/div[2]/div[3]/div/div[1]/button', 'txt': None}
+INFO     root:test_ui.py:68 字典去掉空值：{'value': '//*[@id="app"]/div/div[2]/div[3]/div/div[1]/button'}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤新增项目-点击新增 - click执行完毕
+INFO     root:test_ui.py:45 步骤描述：输入项目名称
+INFO     root:test_ui.py:47 步骤14
+INFO     root:test_ui.py:49 输入项目名称 - 关键字行为：input
+INFO     root:test_ui.py:51 输入项目名称 - 定位方法：CSS_SELECTOR
+INFO     root:test_ui.py:53 输入项目名称 - 元素位置：input[placeholder="请输入项目名称"]
+INFO     root:test_ui.py:55 输入项目名称 - 输入内容：回归测试项目
+INFO     root:test_ui.py:57 输入项目名称 - 断言值：None
+INFO     root:test_ui.py:64 正在执行：输入项目名称 - input
+INFO     root:test_ui.py:66 字典：{'by': 'CSS_SELECTOR', 'value': 'input[placeholder="请输入项目名称"]', 'txt': '回归测试项目'}
+INFO     root:test_ui.py:68 字典去掉空值：{'by': 'CSS_SELECTOR', 'value': 'input[placeholder="请输入项目名称"]', 'txt': '回归测试项目'}
+INFO     root:test_ui.py:71 执行结果：None
+INFO     root:test_ui.py:41 步骤输入项目名称 - input执行完毕
+INFO     root:test_ui.py:45 步骤描述：选择项目类型
+INFO     root:test_ui.py:47 步骤15
+INFO     root:test_ui.py:49 选择项目类型 - 关键字行为：select
+INFO     root:test_ui.py:51 选择项目类型 - 定位方法：None
+INFO     root:test_ui.py:53 选择项目类型 - 元素位置：/html/body/div[1]/div/div[2]/div[3]/div/div[4]/div/div/section/div[1]/div/form/div[2]/div[2]/div/div/div/div/input
+INFO     root:test_ui.py:55 选择项目类型 - 输入内容：媒体
+INFO     root:test_ui.py:57 选择项目类型 - 断言值：None
+INFO     root:test_ui.py:64 正在执行：选择项目类型 - select
+INFO     root:test_ui.py:66 字典：{'by': None, 'value': '/html/body/div[1]/div/div[2]/div[3]/div/div[4]/div/div/section/div[1]/div/form/div[2]/div[2]/div/div/div/div/input', 'txt': '媒体'}
+INFO     root:test_ui.py:68 字典去掉空值：{'value': '/html/body/div[1]/div/div[2]/div[3]/div/div[4]/div/div/section/div[1]/div/form/div[2]/div[2]/div/div/div/div/input', 'txt': '媒体'}</pre>
                                     </div>
                                     <div class="tab-pane fade" role="tabpanel" aria-labelledby="contact-tab">
                                         <pre style="line-height: 18px"></pre>
                                     </div>
                                     
                                     <div class="tab-pane fade " role="tabpanel" aria-labelledby="home-tab">
-                                        <pre style="line-height: 18px">self = <class 'test_ui.TestUi'>
+                                        <pre style="line-height: 18px">self = <test_ui.TestUi object at 0x0000021D24343D90>
+data = {'sheet标题': '登录', '是否执行': '是', '用例标题': '新建项目', '用例步骤': [{'元素位置': '/html/body/div[1]/div/div[1]/div[1]/div[3]/div/span[...iv/section/div[1]/div/form/div[2]/div[2]/div/div/div/div/input', '关键字行为': 'select', '定位方法': None, '序号': 15, ...}, ...]}
 
-    def setup_class(self):
->       self.wd = Key()
+    @pytest.mark.parametrize("data", data_list, ids=get_title())
+    def test_execute_cases(self, data):
+        self._prepare_test_data(data)
+>       self.execute_test_case()
 
-testcases\test_ui.py:14: 
+testcases\test_ui.py:27: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-common\pubic_ui.py:17: in __init__
-    self.driver = Common.get_driver('edge')
-common\get_driver.py:72: in get_driver
-    cls.driver = webdriver.Edge()
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\edge\webdriver.py:45: in __init__
-    super().__init__(
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\chromium\webdriver.py:61: in __init__
-    super().__init__(command_executor=executor, options=options)
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webdriver.py:209: in __init__
-    self.start_session(capabilities)
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webdriver.py:293: in start_session
-    response = self.execute(Command.NEW_SESSION, caps)["value"]
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webdriver.py:348: in execute
-    self.error_handler.check_response(response)
+testcases\test_ui.py:40: in execute_test_case
+    self._execute_step(step)
+testcases\test_ui.py:70: in _execute_step
+    result = getattr(self.wd, self.keyword)(**data)
+common\pubic_ui.py:65: in select
+    select = Select(dropdown)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000022CAE1E5100>
-response = {'status': 500, 'value': '{"value":{"error":"session not created","message":"session not created: This version of Micr...1D8371+793873]\\n\\tBaseThreadInitThunk [0x00007FF84B0F7344+20]\\n\\tRtlUserThreadStart [0x00007FF84B4226B1+33]\\n"}}'}
+self = <selenium.webdriver.support.select.Select object at 0x0000021D244BBA60>
+webelement = <selenium.webdriver.remote.webelement.WebElement (session="a1f92609e9766c9edb968e092e0f83a1", element="f.9CF23D8B260D142A845AF19050842569.d.7145A0888AB9A7D0897427BE057FDCAA.e.187")>
 
-    def check_response(self, response: Dict[str, Any]) -> None:
-        """Checks that a JSON response from the WebDriver does not have an
-        error.
+    def __init__(self, webelement: WebElement) -> None:
+        """Constructor. A check is made that the given element is, indeed, a
+        SELECT tag. If it is not, then an UnexpectedTagNameException is thrown.
     
         :Args:
-         - response - The JSON response from the WebDriver server as a dictionary
-           object.
+         - webelement - SELECT element to wrap
     
-        :Raises: If the response contains an error message.
+        Example:
+            from selenium.webdriver.support.ui import Select \n
+            Select(driver.find_element(By.TAG_NAME, "select")).select_by_index(2)
         """
-        status = response.get("status", None)
-        if not status or status == ErrorCode.SUCCESS:
-            return
-        value = None
-        message = response.get("message", "")
-        screen: str = response.get("screen", "")
-        stacktrace = None
-        if isinstance(status, int):
-            value_json = response.get("value", None)
-            if value_json and isinstance(value_json, str):
-                import json
-    
-                try:
-                    value = json.loads(value_json)
-                    if len(value) == 1:
-                        value = value["value"]
-                    status = value.get("error", None)
-                    if not status:
-                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
-                        message = value.get("value") or value.get("message")
-                        if not isinstance(message, str):
-                            value = message
-                            message = message.get("message")
-                    else:
-                        message = value.get("message", None)
-                except ValueError:
-                    pass
-    
-        exception_class: Type[WebDriverException]
-        e = ErrorCode()
-        error_codes = [item for item in dir(e) if not item.startswith("__")]
-        for error_code in error_codes:
-            error_info = getattr(ErrorCode, error_code)
-            if isinstance(error_info, list) and status in error_info:
-                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
-                break
-        else:
-            exception_class = WebDriverException
-    
-        if not value:
-            value = response["value"]
-        if isinstance(value, str):
-            raise exception_class(value)
-        if message == "" and "message" in value:
-            message = value["message"]
-    
-        screen = None  # type: ignore[assignment]
-        if "screen" in value:
-            screen = value["screen"]
-    
-        stacktrace = None
-        st_value = value.get("stackTrace") or value.get("stacktrace")
-        if st_value:
-            if isinstance(st_value, str):
-                stacktrace = st_value.split("\n")
-            else:
-                stacktrace = []
-                try:
-                    for frame in st_value:
-                        line = frame.get("lineNumber", "")
-                        file = frame.get("fileName", "<anonymous>")
-                        if line:
-                            file = f"{file}:{line}"
-                        meth = frame.get("methodName", "<anonymous>")
-                        if "className" in frame:
-                            meth = f"{frame['className']}.{meth}"
-                        msg = "    at %s (%s)"
-                        msg = msg % (meth, file)
-                        stacktrace.append(msg)
-                except TypeError:
-                    pass
-        if exception_class == UnexpectedAlertPresentException:
-            alert_text = None
-            if "data" in value:
-                alert_text = value["data"].get("text")
-            elif "alert" in value:
-                alert_text = value["alert"].get("text")
-            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
->       raise exception_class(message, screen, stacktrace)
-E       selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 112
-E       Current browser version is 124.0.2478.80 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
-E       Stacktrace:
-E       Backtrace:
-E       	GetHandleVerifier [0x00007FF66224D8C2+60274]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621DE522+818882]
-E       	(No symbol) [0x00007FF661E6DFAE]
-E       	(No symbol) [0x00007FF661E9E378]
-E       	(No symbol) [0x00007FF661E98D24]
-E       	(No symbol) [0x00007FF661E9440A]
-E       	(No symbol) [0x00007FF661ED7341]
-E       	(No symbol) [0x00007FF661ECF343]
-E       	(No symbol) [0x00007FF661EA1796]
-E       	(No symbol) [0x00007FF661EA0975]
-E       	(No symbol) [0x00007FF661EA1F04]
-E       	Microsoft::Applications::Events::EventProperties::SetLevel [0x00007FF6620E2147+1592039]
-E       	Microsoft::Applications::Events::EventProperties::SetLevel [0x00007FF661F8AC4D+185837]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF66211F6B7+36951]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621177C5+4453]
-E       	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF66241FB93+1320211]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621E65DC+851836]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621E2644+835556]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621E279C+835900]
-E       	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6621D8371+793873]
-E       	BaseThreadInitThunk [0x00007FF84B0F7344+20]
-E       	RtlUserThreadStart [0x00007FF84B4226B1+33]
+        if webelement.tag_name.lower() != "select":
+>           raise UnexpectedTagNameException(f"Select only works on <select> elements, not on {webelement.tag_name}")
+E           selenium.common.exceptions.UnexpectedTagNameException: Message: Select only works on <select> elements, not on input
 
-D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\errorhandler.py:229: SessionNotCreatedException</pre>
+D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\select.py:39: UnexpectedTagNameException</pre>
                                     </div>
                                     
                                     
@@ -1618,17 +1539,17 @@ D:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\errorh
 <script type="text/javascript">
 
     const resulte = {
-            "success": `0`,
+            "success": `1`,
             "all": `2`,
-            "fail": `0`,
+            "fail": `1`,
             "skip": '0',
-            "error": `2`,
-            "runtime": '0.17 分钟',
-            "begin_time": "1715235958.63486",
-            "pass_rate": '0.00',
+            "error": `0`,
+            "runtime": '0.49 分钟',
+            "begin_time": "1715241559.652718",
+            "pass_rate": '50.00',
         }
     ;
-    const history = [{'success': 483, 'all': 668, 'fail': 136, 'skip': 49, 'error': 0, 'runtime': '11.96 分', 'begin_time': '2024-04-19 14:40:28', 'pass_rate': '72.31'}, {'success': 597, 'all': 668, 'fail': 22, 'skip': 49, 'error': 0, 'runtime': '10.75 分', 'begin_time': '2024-04-22 14:19:12', 'pass_rate': '89.37'}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.04 分', 'begin_time': '2024-04-22 14:32:12', 'pass_rate': 0}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.04 分', 'begin_time': '2024-04-22 14:33:07', 'pass_rate': 0}, {'success': 151, 'all': 390, 'fail': 2, 'skip': 237, 'error': 0, 'runtime': '1.86 分', 'begin_time': '2024-04-22 14:41:40', 'pass_rate': '38.72'}, {'success': 151, 'all': 390, 'fail': 2, 'skip': 237, 'error': 0, 'runtime': '1.87 分钟', 'begin_time': '2024-04-22 14:56:08', 'pass_rate': '38.72'}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-04-29 14:00:22', 'pass_rate': 0}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-04-29 14:01:33', 'pass_rate': 0}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-04-29 14:03:29', 'pass_rate': 0}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.49 分钟', 'begin_time': '2024-04-29 14:19:54', 'pass_rate': '80.00'}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.42 分钟', 'begin_time': '2024-04-29 14:24:41', 'pass_rate': '80.00'}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.44 分钟', 'begin_time': '2024-04-29 14:41:48', 'pass_rate': '80.00'}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.49 分钟', 'begin_time': '2024-04-29 15:14:47', 'pass_rate': '80.00'}, {'success': 647, 'all': 671, 'fail': 23, 'skip': 1, 'error': 1, 'runtime': '10.21 分钟', 'begin_time': '2024-04-30 14:18:59', 'pass_rate': '96.42'}, {'success': 62, 'all': 90, 'fail': 27, 'skip': 1, 'error': 1, 'runtime': '0.60 分钟', 'begin_time': '2024-04-30 15:01:56', 'pass_rate': '68.89'}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 1, 'runtime': '0.43 分钟', 'begin_time': '2024-04-30 15:07:52', 'pass_rate': '80.00'}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.42 分钟', 'begin_time': '2024-04-30 15:13:23', 'pass_rate': '80.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.04 分钟', 'begin_time': '2024-05-06 09:06:59', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.03 分钟', 'begin_time': '2024-05-06 09:09:32', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.03 分钟', 'begin_time': '2024-05-06 09:11:26', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.03 分钟', 'begin_time': '2024-05-06 09:54:55', 'pass_rate': '50.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 09:59:22', 'pass_rate': '0.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 09:59:29', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 10:06:09', 'pass_rate': '50.00'}, {'success': 2, 'all': 2, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 10:08:04', 'pass_rate': '100.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 10:38:20', 'pass_rate': '50.00'}, {'success': 2, 'all': 2, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 10:40:38', 'pass_rate': '100.00'}, {'success': 2, 'all': 3, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.04 分钟', 'begin_time': '2024-05-06 10:43:07', 'pass_rate': '66.67'}, {'success': 3, 'all': 3, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 10:43:44', 'pass_rate': '100.00'}, {'success': 4, 'all': 5, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.03 分钟', 'begin_time': '2024-05-06 11:08:47', 'pass_rate': '80.00'}, {'success': 5, 'all': 5, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.03 分钟', 'begin_time': '2024-05-06 11:10:17', 'pass_rate': '100.00'}, {'success': 5, 'all': 9, 'fail': 4, 'skip': 0, 'error': 0, 'runtime': '0.05 分钟', 'begin_time': '2024-05-06 16:52:49', 'pass_rate': '55.56'}, {'success': 7, 'all': 9, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.04 分钟', 'begin_time': '2024-05-06 16:57:20', 'pass_rate': '77.78'}, {'success': 9, 'all': 9, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.04 分钟', 'begin_time': '2024-05-06 17:10:31', 'pass_rate': '100.00'}, {'success': 23, 'all': 26, 'fail': 3, 'skip': 0, 'error': 0, 'runtime': '0.11 分钟', 'begin_time': '2024-05-07 10:15:25', 'pass_rate': '88.46'}, {'success': 24, 'all': 27, 'fail': 3, 'skip': 0, 'error': 0, 'runtime': '0.09 分钟', 'begin_time': '2024-05-07 10:20:32', 'pass_rate': '88.89'}, {'success': 25, 'all': 27, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.08 分钟', 'begin_time': '2024-05-07 10:21:22', 'pass_rate': '92.59'}, {'success': 27, 'all': 29, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.10 分钟', 'begin_time': '2024-05-07 10:35:54', 'pass_rate': '93.10'}, {'success': 675, 'all': 704, 'fail': 29, 'skip': 0, 'error': 0, 'runtime': '10.86 分钟', 'begin_time': '2024-05-07 10:43:37', 'pass_rate': '95.88'}, {'success': 620, 'all': 704, 'fail': 35, 'skip': 49, 'error': 0, 'runtime': '8.81 分钟', 'begin_time': '2024-05-07 11:09:01', 'pass_rate': '88.07'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.74 分钟', 'begin_time': '2024-05-07 13:51:26', 'pass_rate': '33.33'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.39 分钟', 'begin_time': '2024-05-07 13:52:56', 'pass_rate': '33.33'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.37 分钟', 'begin_time': '2024-05-07 13:54:16', 'pass_rate': '33.33'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.38 分钟', 'begin_time': '2024-05-07 13:57:13', 'pass_rate': '33.33'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.37 分钟', 'begin_time': '2024-05-07 14:00:46', 'pass_rate': '33.33'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.41 分钟', 'begin_time': '2024-05-07 14:01:37', 'pass_rate': '33.33'}, {'success': 0, 'all': 3, 'fail': 2, 'skip': 1, 'error': 0, 'runtime': '0.09 分钟', 'begin_time': '2024-05-07 14:08:16', 'pass_rate': '0.00'}, {'success': 0, 'all': 3, 'fail': 2, 'skip': 1, 'error': 0, 'runtime': '0.10 分钟', 'begin_time': '2024-05-07 14:10:03', 'pass_rate': '0.00'}, {'success': 0, 'all': 3, 'fail': 2, 'skip': 1, 'error': 0, 'runtime': '0.09 分钟', 'begin_time': '2024-05-07 14:10:50', 'pass_rate': '0.00'}, {'success': 0, 'all': 3, 'fail': 2, 'skip': 1, 'error': 0, 'runtime': '0.10 分钟', 'begin_time': '2024-05-07 14:11:13', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.42 分钟', 'begin_time': '2024-05-07 14:14:20', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.44 分钟', 'begin_time': '2024-05-07 14:18:26', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.25 分钟', 'begin_time': '2024-05-07 14:21:56', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.29 分钟', 'begin_time': '2024-05-07 14:22:53', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.44 分钟', 'begin_time': '2024-05-07 14:25:21', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.46 分钟', 'begin_time': '2024-05-07 14:29:22', 'pass_rate': '0.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.32 分钟', 'begin_time': '2024-05-07 14:47:15', 'pass_rate': '100.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.04 分钟', 'begin_time': '2024-05-07 14:47:52', 'pass_rate': '0.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.35 分钟', 'begin_time': '2024-05-07 14:48:09', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.37 分钟', 'begin_time': '2024-05-07 14:48:52', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.35 分钟', 'begin_time': '2024-05-07 14:49:46', 'pass_rate': '100.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.12 分钟', 'begin_time': '2024-05-07 15:01:06', 'pass_rate': '0.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.36 分钟', 'begin_time': '2024-05-07 15:01:37', 'pass_rate': '100.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.08 分钟', 'begin_time': '2024-05-07 15:06:33', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.11 分钟', 'begin_time': '2024-05-07 15:06:46', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.24 分钟', 'begin_time': '2024-05-07 15:11:02', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.23 分钟', 'begin_time': '2024-05-07 15:49:23', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.29 分钟', 'begin_time': '2024-05-07 15:53:28', 'pass_rate': '0.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.38 分钟', 'begin_time': '2024-05-07 15:54:14', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.51 分钟', 'begin_time': '2024-05-07 15:56:22', 'pass_rate': '100.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.34 分钟', 'begin_time': '2024-05-07 15:59:02', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.49 分钟', 'begin_time': '2024-05-07 16:09:14', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.37 分钟', 'begin_time': '2024-05-07 16:10:55', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.56 分钟', 'begin_time': '2024-05-07 16:12:21', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.66 分钟', 'begin_time': '2024-05-07 16:17:04', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.60 分钟', 'begin_time': '2024-05-07 16:19:02', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.71 分钟', 'begin_time': '2024-05-07 16:20:49', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.55 分钟', 'begin_time': '2024-05-07 16:33:23', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.49 分钟', 'begin_time': '2024-05-07 16:35:04', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.51 分钟', 'begin_time': '2024-05-07 16:36:02', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.42 分钟', 'begin_time': '2024-05-07 16:44:50', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.48 分钟', 'begin_time': '2024-05-07 16:48:04', 'pass_rate': '0.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.36 分钟', 'begin_time': '2024-05-07 17:10:50', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.34 分钟', 'begin_time': '2024-05-07 17:12:32', 'pass_rate': '100.00'}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-08 09:25:11', 'pass_rate': 0}, {'success': 675, 'all': 704, 'fail': 29, 'skip': 0, 'error': 0, 'runtime': '10.85 分钟', 'begin_time': '2024-05-08 09:25:33', 'pass_rate': '95.88'}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.01 分钟', 'begin_time': '2024-05-08 10:15:23', 'pass_rate': 0}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.47 分钟', 'begin_time': '2024-05-08 10:15:48', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.31 分钟', 'begin_time': '2024-05-08 10:19:04', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.34 分钟', 'begin_time': '2024-05-08 10:22:17', 'pass_rate': '100.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.10 分钟', 'begin_time': '2024-05-09 08:48:09', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 08:50:28', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 08:54:30', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 08:58:41', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.11 分钟', 'begin_time': '2024-05-09 09:01:18', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 09:03:19', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 09:06:18', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.13 分钟', 'begin_time': '2024-05-09 10:40:55', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 11:01:55', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.02 分钟', 'begin_time': '2024-05-09 11:25:18', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.21 分钟', 'begin_time': '2024-05-09 11:26:04', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.19 分钟', 'begin_time': '2024-05-09 11:29:09', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.13 分钟', 'begin_time': '2024-05-09 11:33:04', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.21 分钟', 'begin_time': '2024-05-09 11:33:22', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.11 分钟', 'begin_time': '2024-05-09 11:36:33', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.09 分钟', 'begin_time': '2024-05-09 13:35:01', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.21 分钟', 'begin_time': '2024-05-09 13:35:29', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.23 分钟', 'begin_time': '2024-05-09 13:39:47', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.24 分钟', 'begin_time': '2024-05-09 13:40:40', 'pass_rate': '0.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.41 分钟', 'begin_time': '2024-05-09 13:41:11', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.42 分钟', 'begin_time': '2024-05-09 13:43:12', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.57 分钟', 'begin_time': '2024-05-09 13:44:34', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.45 分钟', 'begin_time': '2024-05-09 13:46:41', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.39 分钟', 'begin_time': '2024-05-09 13:48:18', 'pass_rate': '50.00'}, {'success': 0, 'all': 2, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.15 分钟', 'begin_time': '2024-05-09 14:06:06', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.02 分钟', 'begin_time': '2024-05-09 14:06:43', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.05 分钟', 'begin_time': '2024-05-09 14:07:01', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.02 分钟', 'begin_time': '2024-05-09 14:08:35', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.07 分钟', 'begin_time': '2024-05-09 14:09:21', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.08 分钟', 'begin_time': '2024-05-09 14:10:04', 'pass_rate': '0.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.52 分钟', 'begin_time': '2024-05-09 14:10:29', 'pass_rate': '50.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.17 分钟', 'begin_time': '2024-05-09 14:11:57', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.17 分钟', 'begin_time': '2024-05-09 14:13:21', 'pass_rate': '0.00'}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.21 分钟', 'begin_time': '2024-05-09 14:14:09', 'pass_rate': 0}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.17 分钟', 'begin_time': '2024-05-09 14:25:11', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.17 分钟', 'begin_time': '2024-05-09 14:25:58', 'pass_rate': '0.00'}];
+    const history = [{'success': 483, 'all': 668, 'fail': 136, 'skip': 49, 'error': 0, 'runtime': '11.96 分', 'begin_time': '2024-04-19 14:40:28', 'pass_rate': '72.31'}, {'success': 597, 'all': 668, 'fail': 22, 'skip': 49, 'error': 0, 'runtime': '10.75 分', 'begin_time': '2024-04-22 14:19:12', 'pass_rate': '89.37'}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.04 分', 'begin_time': '2024-04-22 14:32:12', 'pass_rate': 0}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.04 分', 'begin_time': '2024-04-22 14:33:07', 'pass_rate': 0}, {'success': 151, 'all': 390, 'fail': 2, 'skip': 237, 'error': 0, 'runtime': '1.86 分', 'begin_time': '2024-04-22 14:41:40', 'pass_rate': '38.72'}, {'success': 151, 'all': 390, 'fail': 2, 'skip': 237, 'error': 0, 'runtime': '1.87 分钟', 'begin_time': '2024-04-22 14:56:08', 'pass_rate': '38.72'}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-04-29 14:00:22', 'pass_rate': 0}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-04-29 14:01:33', 'pass_rate': 0}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-04-29 14:03:29', 'pass_rate': 0}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.49 分钟', 'begin_time': '2024-04-29 14:19:54', 'pass_rate': '80.00'}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.42 分钟', 'begin_time': '2024-04-29 14:24:41', 'pass_rate': '80.00'}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.44 分钟', 'begin_time': '2024-04-29 14:41:48', 'pass_rate': '80.00'}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.49 分钟', 'begin_time': '2024-04-29 15:14:47', 'pass_rate': '80.00'}, {'success': 647, 'all': 671, 'fail': 23, 'skip': 1, 'error': 1, 'runtime': '10.21 分钟', 'begin_time': '2024-04-30 14:18:59', 'pass_rate': '96.42'}, {'success': 62, 'all': 90, 'fail': 27, 'skip': 1, 'error': 1, 'runtime': '0.60 分钟', 'begin_time': '2024-04-30 15:01:56', 'pass_rate': '68.89'}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 1, 'runtime': '0.43 分钟', 'begin_time': '2024-04-30 15:07:52', 'pass_rate': '80.00'}, {'success': 8, 'all': 10, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.42 分钟', 'begin_time': '2024-04-30 15:13:23', 'pass_rate': '80.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.04 分钟', 'begin_time': '2024-05-06 09:06:59', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.03 分钟', 'begin_time': '2024-05-06 09:09:32', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.03 分钟', 'begin_time': '2024-05-06 09:11:26', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.03 分钟', 'begin_time': '2024-05-06 09:54:55', 'pass_rate': '50.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 09:59:22', 'pass_rate': '0.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 09:59:29', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 10:06:09', 'pass_rate': '50.00'}, {'success': 2, 'all': 2, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 10:08:04', 'pass_rate': '100.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 10:38:20', 'pass_rate': '50.00'}, {'success': 2, 'all': 2, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 10:40:38', 'pass_rate': '100.00'}, {'success': 2, 'all': 3, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.04 分钟', 'begin_time': '2024-05-06 10:43:07', 'pass_rate': '66.67'}, {'success': 3, 'all': 3, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-06 10:43:44', 'pass_rate': '100.00'}, {'success': 4, 'all': 5, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.03 分钟', 'begin_time': '2024-05-06 11:08:47', 'pass_rate': '80.00'}, {'success': 5, 'all': 5, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.03 分钟', 'begin_time': '2024-05-06 11:10:17', 'pass_rate': '100.00'}, {'success': 5, 'all': 9, 'fail': 4, 'skip': 0, 'error': 0, 'runtime': '0.05 分钟', 'begin_time': '2024-05-06 16:52:49', 'pass_rate': '55.56'}, {'success': 7, 'all': 9, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.04 分钟', 'begin_time': '2024-05-06 16:57:20', 'pass_rate': '77.78'}, {'success': 9, 'all': 9, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.04 分钟', 'begin_time': '2024-05-06 17:10:31', 'pass_rate': '100.00'}, {'success': 23, 'all': 26, 'fail': 3, 'skip': 0, 'error': 0, 'runtime': '0.11 分钟', 'begin_time': '2024-05-07 10:15:25', 'pass_rate': '88.46'}, {'success': 24, 'all': 27, 'fail': 3, 'skip': 0, 'error': 0, 'runtime': '0.09 分钟', 'begin_time': '2024-05-07 10:20:32', 'pass_rate': '88.89'}, {'success': 25, 'all': 27, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.08 分钟', 'begin_time': '2024-05-07 10:21:22', 'pass_rate': '92.59'}, {'success': 27, 'all': 29, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.10 分钟', 'begin_time': '2024-05-07 10:35:54', 'pass_rate': '93.10'}, {'success': 675, 'all': 704, 'fail': 29, 'skip': 0, 'error': 0, 'runtime': '10.86 分钟', 'begin_time': '2024-05-07 10:43:37', 'pass_rate': '95.88'}, {'success': 620, 'all': 704, 'fail': 35, 'skip': 49, 'error': 0, 'runtime': '8.81 分钟', 'begin_time': '2024-05-07 11:09:01', 'pass_rate': '88.07'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.74 分钟', 'begin_time': '2024-05-07 13:51:26', 'pass_rate': '33.33'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.39 分钟', 'begin_time': '2024-05-07 13:52:56', 'pass_rate': '33.33'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.37 分钟', 'begin_time': '2024-05-07 13:54:16', 'pass_rate': '33.33'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.38 分钟', 'begin_time': '2024-05-07 13:57:13', 'pass_rate': '33.33'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.37 分钟', 'begin_time': '2024-05-07 14:00:46', 'pass_rate': '33.33'}, {'success': 1, 'all': 3, 'fail': 1, 'skip': 1, 'error': 0, 'runtime': '0.41 分钟', 'begin_time': '2024-05-07 14:01:37', 'pass_rate': '33.33'}, {'success': 0, 'all': 3, 'fail': 2, 'skip': 1, 'error': 0, 'runtime': '0.09 分钟', 'begin_time': '2024-05-07 14:08:16', 'pass_rate': '0.00'}, {'success': 0, 'all': 3, 'fail': 2, 'skip': 1, 'error': 0, 'runtime': '0.10 分钟', 'begin_time': '2024-05-07 14:10:03', 'pass_rate': '0.00'}, {'success': 0, 'all': 3, 'fail': 2, 'skip': 1, 'error': 0, 'runtime': '0.09 分钟', 'begin_time': '2024-05-07 14:10:50', 'pass_rate': '0.00'}, {'success': 0, 'all': 3, 'fail': 2, 'skip': 1, 'error': 0, 'runtime': '0.10 分钟', 'begin_time': '2024-05-07 14:11:13', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.42 分钟', 'begin_time': '2024-05-07 14:14:20', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.44 分钟', 'begin_time': '2024-05-07 14:18:26', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.25 分钟', 'begin_time': '2024-05-07 14:21:56', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.29 分钟', 'begin_time': '2024-05-07 14:22:53', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.44 分钟', 'begin_time': '2024-05-07 14:25:21', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.46 分钟', 'begin_time': '2024-05-07 14:29:22', 'pass_rate': '0.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.32 分钟', 'begin_time': '2024-05-07 14:47:15', 'pass_rate': '100.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.04 分钟', 'begin_time': '2024-05-07 14:47:52', 'pass_rate': '0.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.35 分钟', 'begin_time': '2024-05-07 14:48:09', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.37 分钟', 'begin_time': '2024-05-07 14:48:52', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.35 分钟', 'begin_time': '2024-05-07 14:49:46', 'pass_rate': '100.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.12 分钟', 'begin_time': '2024-05-07 15:01:06', 'pass_rate': '0.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.36 分钟', 'begin_time': '2024-05-07 15:01:37', 'pass_rate': '100.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.08 分钟', 'begin_time': '2024-05-07 15:06:33', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.11 分钟', 'begin_time': '2024-05-07 15:06:46', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.24 分钟', 'begin_time': '2024-05-07 15:11:02', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.23 分钟', 'begin_time': '2024-05-07 15:49:23', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.29 分钟', 'begin_time': '2024-05-07 15:53:28', 'pass_rate': '0.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.38 分钟', 'begin_time': '2024-05-07 15:54:14', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.51 分钟', 'begin_time': '2024-05-07 15:56:22', 'pass_rate': '100.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.34 分钟', 'begin_time': '2024-05-07 15:59:02', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.49 分钟', 'begin_time': '2024-05-07 16:09:14', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.37 分钟', 'begin_time': '2024-05-07 16:10:55', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.56 分钟', 'begin_time': '2024-05-07 16:12:21', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.66 分钟', 'begin_time': '2024-05-07 16:17:04', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.60 分钟', 'begin_time': '2024-05-07 16:19:02', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.71 分钟', 'begin_time': '2024-05-07 16:20:49', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.55 分钟', 'begin_time': '2024-05-07 16:33:23', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.49 分钟', 'begin_time': '2024-05-07 16:35:04', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.51 分钟', 'begin_time': '2024-05-07 16:36:02', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.42 分钟', 'begin_time': '2024-05-07 16:44:50', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.48 分钟', 'begin_time': '2024-05-07 16:48:04', 'pass_rate': '0.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.36 分钟', 'begin_time': '2024-05-07 17:10:50', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.34 分钟', 'begin_time': '2024-05-07 17:12:32', 'pass_rate': '100.00'}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.02 分钟', 'begin_time': '2024-05-08 09:25:11', 'pass_rate': 0}, {'success': 675, 'all': 704, 'fail': 29, 'skip': 0, 'error': 0, 'runtime': '10.85 分钟', 'begin_time': '2024-05-08 09:25:33', 'pass_rate': '95.88'}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.01 分钟', 'begin_time': '2024-05-08 10:15:23', 'pass_rate': 0}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.47 分钟', 'begin_time': '2024-05-08 10:15:48', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.31 分钟', 'begin_time': '2024-05-08 10:19:04', 'pass_rate': '100.00'}, {'success': 1, 'all': 1, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.34 分钟', 'begin_time': '2024-05-08 10:22:17', 'pass_rate': '100.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.10 分钟', 'begin_time': '2024-05-09 08:48:09', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 08:50:28', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 08:54:30', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 08:58:41', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.11 分钟', 'begin_time': '2024-05-09 09:01:18', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 09:03:19', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 09:06:18', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.13 分钟', 'begin_time': '2024-05-09 10:40:55', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.12 分钟', 'begin_time': '2024-05-09 11:01:55', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.02 分钟', 'begin_time': '2024-05-09 11:25:18', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.21 分钟', 'begin_time': '2024-05-09 11:26:04', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.19 分钟', 'begin_time': '2024-05-09 11:29:09', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.13 分钟', 'begin_time': '2024-05-09 11:33:04', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.21 分钟', 'begin_time': '2024-05-09 11:33:22', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.11 分钟', 'begin_time': '2024-05-09 11:36:33', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 0, 'skip': 0, 'error': 1, 'runtime': '0.09 分钟', 'begin_time': '2024-05-09 13:35:01', 'pass_rate': '0.00'}, {'success': 0, 'all': 1, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.21 分钟', 'begin_time': '2024-05-09 13:35:29', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.23 分钟', 'begin_time': '2024-05-09 13:39:47', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.24 分钟', 'begin_time': '2024-05-09 13:40:40', 'pass_rate': '0.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.41 分钟', 'begin_time': '2024-05-09 13:41:11', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.42 分钟', 'begin_time': '2024-05-09 13:43:12', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.57 分钟', 'begin_time': '2024-05-09 13:44:34', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.45 分钟', 'begin_time': '2024-05-09 13:46:41', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.39 分钟', 'begin_time': '2024-05-09 13:48:18', 'pass_rate': '50.00'}, {'success': 0, 'all': 2, 'fail': 2, 'skip': 0, 'error': 0, 'runtime': '0.15 分钟', 'begin_time': '2024-05-09 14:06:06', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.02 分钟', 'begin_time': '2024-05-09 14:06:43', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.05 分钟', 'begin_time': '2024-05-09 14:07:01', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.02 分钟', 'begin_time': '2024-05-09 14:08:35', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.07 分钟', 'begin_time': '2024-05-09 14:09:21', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.08 分钟', 'begin_time': '2024-05-09 14:10:04', 'pass_rate': '0.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.52 分钟', 'begin_time': '2024-05-09 14:10:29', 'pass_rate': '50.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.17 分钟', 'begin_time': '2024-05-09 14:11:57', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.17 分钟', 'begin_time': '2024-05-09 14:13:21', 'pass_rate': '0.00'}, {'success': 0, 'all': 0, 'fail': 0, 'skip': 0, 'error': 0, 'runtime': '0.21 分钟', 'begin_time': '2024-05-09 14:14:09', 'pass_rate': 0}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.17 分钟', 'begin_time': '2024-05-09 14:25:11', 'pass_rate': '0.00'}, {'success': 0, 'all': 2, 'fail': 0, 'skip': 0, 'error': 2, 'runtime': '0.17 分钟', 'begin_time': '2024-05-09 14:25:58', 'pass_rate': '0.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.72 分钟', 'begin_time': '2024-05-09 14:37:11', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.52 分钟', 'begin_time': '2024-05-09 14:42:07', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.50 分钟', 'begin_time': '2024-05-09 15:55:15', 'pass_rate': '50.00'}, {'success': 1, 'all': 2, 'fail': 1, 'skip': 0, 'error': 0, 'runtime': '0.49 分钟', 'begin_time': '2024-05-09 15:59:19', 'pass_rate': '50.00'}];
 
     var passRate = [];
     var dTime = [];
